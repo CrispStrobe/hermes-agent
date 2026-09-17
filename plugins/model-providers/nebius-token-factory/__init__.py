@@ -33,7 +33,7 @@ class NebiusTokenFactoryProfile(ProviderProfile):
 
 nebius_token_factory = NebiusTokenFactoryProfile(
     name="nebius-token-factory",
-    aliases=("nebius", "nebius-tokenfactory", "nebius-tf", "token-factory", "tokenfactory"),
+    aliases=("nebius", "nebius-tokenfactory", "nebius-tf", "token-factory", "tokenfactory", "nebius-ai", "nebius-studio"),
     display_name="Nebius Token Factory", description="Nebius Token Factory — OpenAI-compatible inference",
     signup_url="https://tokenfactory.nebius.com/",
     env_vars=("NEBIUS_API_KEY", "NEBIUS_TOKEN_FACTORY_API_KEY", "NEBIUS_BASE_URL"),
