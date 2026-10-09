@@ -61,8 +61,8 @@ def _first_env(*names: str) -> str:
 
 
 def _is_oauth_token(key: str) -> bool:
-    """True for Anthropic OAuth/setup tokens (sk-ant-*, eyJ JWTs, cc-); False for sk-ant-api* Console keys."""
-    if not key or key.startswith("sk-ant-api"):
+    """True for OAuth/setup tokens; False for sk-ant-api* and sk-ant-usr* Console keys."""
+    if not key or key.startswith(("sk-ant-api", "sk-ant-usr")):
         return False
     return key.startswith(("sk-ant-", "eyJ", "cc-"))
 
