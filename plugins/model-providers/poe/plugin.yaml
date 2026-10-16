@@ -1,0 +1,5 @@
+name: poe-provider
+kind: model-provider
+version: 1.0.0
+description: Poe — OpenAI-compatible API to Poe bots/models
+author: CrispStrobe

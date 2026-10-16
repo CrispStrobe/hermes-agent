@@ -1,0 +1,5 @@
+name: requesty-provider
+kind: model-provider
+version: 1.0.0
+description: Requesty — OpenAI-compatible LLM router
+author: CrispStrobe

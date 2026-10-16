@@ -1,0 +1,5 @@
+name: togetherai-provider
+kind: model-provider
+version: 1.0.0
+description: Together AI — OpenAI-compatible serverless inference
+author: CrispStrobe

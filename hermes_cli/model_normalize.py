@@ -67,6 +67,12 @@ _MATCHING_PREFIX_STRIP_PROVIDERS: frozenset[str] = frozenset({
     "nebius-token-factory",
     "mistral",
     "scaleway",
+    "togetherai",
+    "groq",
+    "cohere",
+    "requesty",
+    "poe",
+    "nscale",
     "custom",
     "gemini",
     "xai"})

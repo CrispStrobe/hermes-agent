@@ -23,6 +23,17 @@ CASES = [
     ("nebius-token-factory", "Nebius Token Factory",
      ("NEBIUS_API_KEY", "NEBIUS_TOKEN_FACTORY_API_KEY"), "NEBIUS_BASE_URL",
      "https://api.tokenfactory.nebius.com/v1", ("nebius", "nebius-ai", "nebius-studio")),
+    ("togetherai", "Together AI", ("TOGETHER_API_KEY", "TOGETHERAI_API_KEY"), "TOGETHER_BASE_URL",
+     "https://api.together.xyz/v1", ("together", "together-ai")),
+    ("groq", "Groq", ("GROQ_API_KEY",), "GROQ_BASE_URL",
+     "https://api.groq.com/openai/v1", ("groq-cloud", "groqcloud")),
+    ("cohere", "Cohere", ("COHERE_API_KEY", "CO_API_KEY"), "COHERE_BASE_URL",
+     "https://api.cohere.ai/compatibility/v1", ("cohere-ai",)),
+    ("requesty", "Requesty", ("REQUESTY_API_KEY",), "REQUESTY_BASE_URL",
+     "https://router.requesty.ai/v1", ("requesty-ai", "requesty-router")),
+    ("poe", "Poe", ("POE_API_KEY",), "POE_BASE_URL", "https://api.poe.com/v1", ("poe-api", "quora-poe")),
+    ("nscale", "Nscale", ("NSCALE_API_KEY", "NSCALE_TOKEN"), "NSCALE_BASE_URL",
+     "https://inference.api.nscale.com/v1", ("nscale-ai",)),
 ]
 
 

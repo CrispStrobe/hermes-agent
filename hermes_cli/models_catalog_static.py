@@ -512,6 +512,7 @@ _PROVIDER_ALIASES = dict((
     ("nebius-ai", "nebius-token-factory"), ("nebius-studio", "nebius-token-factory"),
     ("mistral-ai", "mistral"), ("mistralai", "mistral"),
     ("scw", "scaleway"), ("scaleway-ai", "scaleway"),
+    ("together", "togetherai"), ("together-ai", "togetherai"), ("groq-cloud", "groq"), ("groqcloud", "groq"), ("cohere-ai", "cohere"), ("requesty-ai", "requesty"), ("requesty-router", "requesty"), ("poe-api", "poe"), ("quora-poe", "poe"), ("nscale-ai", "nscale"),
     ("minimax-china", "minimax-cn"), ("minimax_cn", "minimax-cn"), ("minimax-portal", "minimax-oauth"),
     ("minimax-global", "minimax-oauth"), ("minimax_oauth", "minimax-oauth"), ("claude", "anthropic"),
     ("claude-code", "anthropic"), ("deep-seek", "deepseek"), ("opencode", "opencode-zen"), ("zen", "opencode-zen"),
